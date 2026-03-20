@@ -1,4 +1,4 @@
-<<?php
+<?php
 require_once("../config/conexion.php");
 
 // Se valida que la petición llegue por método POST
@@ -53,7 +53,7 @@ echo json_encode([
 "message" =>"Usuario registrado correctamente"
     ]);
 }else {
-echojson_encode([
+echo json_encode([
 "success" =>false,
 "message" =>"No se pudo registrar el usuario"
     ]);
