@@ -18,7 +18,7 @@ $stock=trim($_POST['stock']??'');
 $usuarioId=trim($_POST['usuario_id']??'');
 
 // Se validan los campos requeridos
-if ($nombre===''||$precio===''||$stock===''||$usuarioId==='') {
+if ($nombre===''||$descripcion===''||$precio===''||$stock===''||$usuarioId==='') {
 echo json_encode([
 "success" =>false,
 "message" =>"Faltan datos obligatorios"
