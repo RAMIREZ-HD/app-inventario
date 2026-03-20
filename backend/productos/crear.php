@@ -37,7 +37,7 @@ echo json_encode([
 "message" =>"Producto creado correctamente"
     ]);
 }else {
-echojson_encode([
+echo json_encode([
 "success" =>false,
 "message" =>"No se pudo crear el producto"
     ]);
